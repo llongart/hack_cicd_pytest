@@ -30,7 +30,7 @@ def test_compare_list():
     token_ls = False
     token_len = False
 
-    if r == ["foo","bar","charlie"]:
+    if r == ["foo","bar","charlie", "PRUEBA"]:
         token_ls = True
 
     if len(r) == 3:
